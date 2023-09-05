@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.label {
+  margin: 0 0.5rem;
+  font-weight: bold;
+}
+
+.select,
+.input {
+  margin: 0 0.5rem;
+}
+
+.input {
+  width: 2rem;
+}
+
+.marginY {
+  margin: 3rem 0;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textSmall {
+  font-size: 0.85rem;
+}
+
+.border {
+  border: 1px solid black;
+}
