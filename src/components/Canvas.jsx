@@ -39,7 +39,7 @@ function renderClock(ctx, currentTime = 0) {
  */
 function renderFrequency(ctx, rect, frequency) {
   ctx.textAlign = 'center';
-  ctx.textBaseline = 'alaphebetic';
+  ctx.textBaseline = 'top';
   ctx.clearRect(rect.x - rect.w / 2, rect.y, rect.w + rect.p, rect.h + rect.p);
   ctx.fillStyle = 'black';
   ctx.fillText(
