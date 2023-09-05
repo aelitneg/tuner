@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# tuner
 
-## Getting Started
+A simple, free tuner. 
 
-First, run the development server:
+## [➡️ Live Demo](https://tuner.aelitneg.com)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## About
+
+The original purpose of this project was to learn more about using the [MediaDevices](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices) and [WebAudio](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) APIs in a React based environment. It has served as a jumping off point for further exploration into pitch detection and animation on the HTML `<cavas>` element. 
+
+A free hosted version of the tuner is available at https://tuner.aelitneg.com. The source code is also provided free and open source under the MIT license. 
+
+## Setup
+
+Follow these steps to run the tuner locally on your computer. 
+
+1. Download the repository from GitHub
+    ```sh
+    git clone https://github.com/aelitneg/tuner.git
+    ```
+1.  In the tuner directory, install the dependencies
+    ```sh
+    npm ci
+    ```
+1. Start the development server
+    ```sh
+    npm run dev
+    ```
+1. The tuner should now be running at http://localhost:3000
+
+### Debug
+
+To enable the AudioContext clock on the canvas, create .env.local and set the variable:
+
+```sh
+NEXT_PUBLIC_DEBUG=true
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
