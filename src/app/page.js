@@ -20,7 +20,7 @@ export default function Home() {
         <footer className={styles.footer}>
           <div>
             © 2023 -{' '}
-            <a href="https://aelitneg.com" target="_blank">
+            <a href="https://www.aelitneg.com" target="_blank">
               aelitneg.com
             </a>
           </div>
